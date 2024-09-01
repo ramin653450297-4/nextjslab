@@ -1,0 +1,51 @@
+.container {
+  font-family: 'Mitr', sans-serif;
+  color: #fdf7f7;
+  max-width: auto;
+  margin: 20px auto;
+  padding: 20px;
+  margin-left: 20px;
+}
+.personal-info {
+  display: flex;
+  width: auto;
+  height: auto;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  position: relative; /* Add this to position .personalbox relative to .personal-info */
+}
+
+.personal-info p {
+  font-size: 20px;
+  line-height: 2.0;
+  margin: 0;
+  margin-left: 100px;
+  margin-top: 100px;
+  text-align: left;
+}
+
+.personalbox {
+  display: flex;
+  width: 700px; 
+  height: 500px; 
+  background-color: red;
+  padding: 20px;
+  border-radius: 8px;
+  position: absolute; 
+  top: 50%; 
+  right: 0; 
+  transform: translateY(-50%); 
+}
+
+.img-bordered {
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-left: 100px;
+}

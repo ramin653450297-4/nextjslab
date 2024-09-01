@@ -1,0 +1,112 @@
+.container {
+    display: flex; 
+    font-family: sans-serif;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: red; 
+    background-position: center;
+  }
+  
+  .name {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .detailsBox {
+    width: 100%;
+    max-width: 800px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    
+  }
+  .detail {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    background-color: rgb(68, 164, 249);
+    border-radius: 10px;
+    margin: 20px auto;      
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    align-items: center;
+  }
+  .sprite {
+    width: 400px;
+    height: auto;
+    display: block;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 20px auto;
+  }
+  
+  .info {
+    text-align: left;
+    color: rgb(0, 0, 0);
+    margin: 20px auto;
+    max-width: 300px;
+  }
+  .info p {
+    text-align: left;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+   
+  }
+
+  
+  .stats {
+    margin-top: 20px;
+  }
+  
+  .stats ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .stats li {
+    margin-bottom: 10px;
+  }
+  
+  .progressBar {
+    height: 20px;
+    line-height: 20px;
+    color: white;
+    text-align: left;
+    background-color: #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: width 0.5s ease;
+  }
+  
+  .hp { background-color: #4CAF50; } 
+  .attack { background-color: #FF9800; } 
+  .defense { background-color: #FF5722; } 
+  .special-attack { background-color: #2196F3; } 
+  .special-defense { background-color: #9C27B0; } 
+  .speed { background-color: #607D8B; } 
+  
+  .btnBack {
+    background-color: rgb(255, 255, 255); 
+    color: rgb(255, 0, 0);
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin: 20px auto; 
+    display: block;
+    text-decoration: none;
+  }
+  
+  .btnBack:hover {
+    background-color: rgb(146, 146, 146);
+    text-decoration: none;
+
+  }
+
+  
